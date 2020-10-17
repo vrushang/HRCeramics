@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Card, CardGroup, CardImg, CardText, CardTitle, Navbar,Nav, NavItem, NavLink, Button, CardImgOverlay, Jumbotron} from 'reactstrap';
 
 class Home1 extends Component{
-
     constructor(props)
     {
         super(props);
@@ -11,7 +10,6 @@ class Home1 extends Component{
             tileName: 'Elevation',
             tileDescription: 'Elevation tiles design are one of the most natural and modern tiles that proves to be a great option and a unique choice. Elevation tiles design is created with the sense of grandeur and they really offer zenith designs. Elevation tiles also known as rustic tiles are substitute to natural stone.',
             tileImg: 'assets/sample.jpg',
-
             isActive: {
                 elevation: true,
                 wooden: false,
@@ -175,22 +173,22 @@ class Home1 extends Component{
                         <Navbar className='navbartabs'>
                             <Nav horizontal tabs>
                                 <NavItem>
-                                    <NavLink active={this.state.isActive.elevation} onClick={() => {this.updateInfo("Elevation")} }>Elevation Tiles</NavLink>
+                                    <NavLink className='link' active={this.state.isActive.elevation} onClick={() => {this.updateInfo("Elevation")} }>Elevation Tiles</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink active={this.state.isActive.wooden} onClick={() => {this.updateInfo("Wooden & Matt")} }>Wooden Tiles</NavLink>
+                                    <NavLink className='link' active={this.state.isActive.wooden} onClick={() => {this.updateInfo("Wooden & Matt")} }>Wooden Tiles</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink active={this.state.isActive.kitchen} onClick={() => {this.updateInfo("Kitchen")} }>Kitchen Tiles</NavLink>
+                                    <NavLink className='link' active={this.state.isActive.kitchen} onClick={() => {this.updateInfo("Kitchen")} }>Kitchen Tiles</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink active={this.state.isActive.wall} onClick={() => {this.updateInfo("Floor Tiles")} }>Floor Tiles</NavLink>
+                                    <NavLink className='link' active={this.state.isActive.wall} onClick={() => {this.updateInfo("Floor Tiles")} }>Floor Tiles</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink active={this.state.isActive.parking} onClick={() => {this.updateInfo("Parking tile")} }>Parking Tiles</NavLink>
+                                    <NavLink className='link' active={this.state.isActive.parking} onClick={() => {this.updateInfo("Parking tile")} }>Parking Tiles</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink active={this.state.isActive.sanitary} onClick={() => {this.updateInfo("Sanitary")} } >Sanitary Tiles</NavLink>
+                                    <NavLink className='link' active={this.state.isActive.sanitary} onClick={() => {this.updateInfo("Sanitary")} } >Sanitary Tiles</NavLink>
                                 </NavItem>
                             </Nav>
                         </Navbar>

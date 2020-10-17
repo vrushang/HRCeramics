@@ -31,14 +31,18 @@ function RenderProductItem ({product}) {
 
 const JumbotronUse =({isLoading,errMess})=>{
     return(
-                <Jumbotron className='jumbotron1'>
-                        <div className="container">
-                            <div className="row row-header">
-                                <div className="col-12 col-sm-6">
-                                </div>
-                                {/* <h1 className="text-white text-center display-5 text-margin">Tile Types</h1> */}
-                            </div>
-                        </div>
+                // <Jumbotron className='jumbotron1'>
+                //         <div className="container">
+                //             <div className="row row-header">
+                //                 <div className="col-12 col-sm-6">
+                //                 </div>
+                //                 {/* <h1 className="text-white text-center display-5 text-margin">Tile Types</h1> */}
+                //             </div>
+                //         </div>
+                // </Jumbotron>
+                
+                <Jumbotron fluid className="m-0 bg-cover-category text-white text-center">
+                    <h2>CATEGORIES</h2>
                 </Jumbotron>
     )
 }

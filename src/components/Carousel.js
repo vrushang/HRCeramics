@@ -37,7 +37,7 @@ class Carousel extends Component {
         ];
       return(
 
-        <Jumbotron fluid>
+        <Jumbotron fluid className='pt-0'>
                     <UncontrolledCarousel items={items}></UncontrolledCarousel>
                 </Jumbotron>
                 

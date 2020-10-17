@@ -17,7 +17,6 @@
      margin-bottom: 9px;
      margin-left: 0px;
      text-align: center;
-    
 }
 .card1{
   border: white;
@@ -54,7 +53,7 @@
 }
 
 /*Categories jumbotron css*/
-.jumbotron1 {
+/* .jumbotron1 {
   padding:70px 30px 600px 30px;
   margin-bottom: 60px;
   background-image: url('/assets/catagory/catagory1.jpg');
@@ -67,6 +66,17 @@
     color: black;
     
     
+} */
+.bg-cover-category
+{
+  background-attachment:fixed;
+
+  background-position: right;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.75)), url("/assets/catagory/shop-category-2.jpg");
+  max-width: 100%;
+  height: auto;
+  font-family: 'Segoe Print', 'Segoe UI', sans-serif;
+  padding: 12%;
 }
 .text-margin{
   margin-top: 150px;
@@ -183,7 +193,11 @@ margin-bottom: 50px;
   color: #ffffff;
   /* background-color: #0089BA; */
 }
-
+/* .nav-link1{
+  color: #0a0a0a;
+} */
+/* .link{
+background-color:} */
 .justifiedText
 {
   text-align: justify;
@@ -386,61 +400,21 @@ address{
   background-color:#123C69;
 } */
 
-/*CSS for navigation*/
-.navbar {
-  transition: all 0.4s;
-}
 
-.navbar1 .nav-link {
-  color: #fff;
+.navbar-dark {
+  background-color: #0a0a0a;
 }
-
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-  color: #887474;
-  text-decoration: none;
-}
-
-.navbar .navbar-brand {
-  color: #fff;
-}
-
-
-/* Change navbar styling on scroll */
-.navbar.active {
-  background: #fff;
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.navbar.active .nav-link {
-  color: #555;
-}
-
-.navbar.active .nav-link:hover,
-.navbar.active .nav-link:focus {
-  color: #555;
-  text-decoration: none;
-}
-
-.navbar.active .navbar-brand {
-  color: #555;
-}
-
-.navbar .nav-item:not(:last-child) {
-  margin-right: 35px;
-}
- 
-.dropdown-toggle::after {
-   transition: transform 0.15s linear; 
-}
- 
-.show.dropdown .dropdown-toggle::after {
-  transform: translateY(3px);
-}
-
-.navbar-toggler{
+.nav-link1{
   color: whitesmoke;
+padding-left: 50px;
+font-size: 20px;}
+.dropdownbg{
+  background-color: black;
 }
+.navbarnav{
+  margin-bottom: 0;
+}
+
 
 /*---FOOTER----*/
 .footer {
