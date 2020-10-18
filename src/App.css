@@ -401,21 +401,40 @@ address{
 } */
 
 
-/* .navbar-dark {
+.navbar-dark {
   background-color: #0a0a0a;
 }
 .nav-link1{
   color: whitesmoke;
-padding-left: 50px;
-font-size: 20px;}
+padding-left: 40px;
+font-size: 15px;}
 .dropdownbg{
   background-color: black;
 }
 .navbarnav{
   margin-bottom: 0;
-} */
-/*CSS for navigation*/
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #887474;
+  text-decoration: none;
+}
+.navbar .navbar-brand {
+  color: rgba(161, 164, 173, 0.945);
+} 
 .navbar {
+  transition: all 0.4s;
+}
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar .nav-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+/*CSS for navigation*/
+/* .navbar {
   transition: all 0.4s;
 }
 
@@ -431,11 +450,11 @@ font-size: 20px;}
 
 .navbar .navbar-brand {
   color: #fff;
-}
+} */
 
 
 /* Change navbar styling on scroll */
-.navbar.active {
+/* .navbar.active {
   background: #fff;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -468,7 +487,7 @@ font-size: 20px;}
 
 .navbar-toggler{
   color: whitesmoke;
-}
+} */
 
 
 /*---FOOTER----*/
