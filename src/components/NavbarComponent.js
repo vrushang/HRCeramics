@@ -157,6 +157,12 @@ so we use collapse from reactstrap  */}
            </NavLink>
            </NavItem>
 
+           <NavItem>
+           <NavLink className='nav-link nav-link1' to='/shop'>
+             Gallery
+           </NavLink>
+           </NavItem>
+
          </Nav>
          </Collapse>
        </div>
