@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardImgOverlay, Button,Jumbotron, Container, Breadcrumb, BreadcrumbItem
+    CardTitle, CardImgOverlay, Button,Jumbotron, Breadcrumb, BreadcrumbItem
   } from 'reactstrap';
   import { Link } from 'react-router-dom';
   import { Loading } from './LoadingComponent';
